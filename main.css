@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'pretendo';
+  src: url(fonts/Pretendo.ttf);
+}
+@font-face {
+  font-family: "3DSfont";
+  src: url(fonts/FOT-RodinNTLG\ Pro\ DB.otf);
+}
+@font-face {
+  font-family: "EchoesOfMK8";
+  src: url(fonts/FOT-NewRodin\ Pro\ EB.otf);
+}
+@font-face {
+  font-family: "avenir";
+  src: url(Fonts/Avenir\ Regular.ttf);
+}
+
+
+img {
+  margin:     auto;
+  width:      33%;
+  text-align: center;
+}
+
+a:visited {
+  text-shadow: 2px 2px 5px rgb(0, 102, 255);
+}
+
+a:hover {
+  width:        auto;
+  text-shadow:  2px 2px 5px rgb(0, 255, 225);
+}
+
+
+.center {
+  display:      block;
+  margin-left:  auto;
+  margin-right: auto;
+  width:        100%;
+  box-shadow:   0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0);
+}
+
+.center2 {
+  display:      block;
+  margin-left:  auto;
+  margin-right: auto;
+  width:        100%;
+}
+
+.nextprev {
+  margin-top:     10%;
+  margin-bottom:  10%;
+  width:          100%;
+  text-align:     center;
+}
+
+.header {
+  overflow:           hidden;
+  background-image:   linear-gradient(rgba(0, 191, 255, 0.653), rgba(0, 150, 200, 0.371));
+  border-radius:      0px 0px 1000px 1000px; 
+  padding:            40px 20px;
+  font-family:        'pretendo', sans-serif; 
+}
+.start{
+  width:        49%;
+  text-align:   center;
+  margin-left:  25%;
+}
+
+.header a {
+  float:            left;
+  color:          black;
+  text-align:       center;
+  padding:          12px;
+  text-decoration:  none;
+  line-height:      25px;
+  border-radius:    4px;
+  font-size:        25px;
+  margin-left:      20px;
+}
+
+
+body {
+ background-image:  url("wiiu\ -\ Made\ with\ Clipchamp.gif");
+ background-size:   100%;
+ background-color:  #ffffff;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'FOT-Newrodin Pro EB'; 
+}
+
+h3{
+  font-family: "pretendo";
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 75px;
+  margin: 25px;
+}
+
+p {
+  font-family: '3DSfont';
+  text-align: center;
+  font-size: 20px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top:2px;
+  margin-bottom:10%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  background-color: #ffffff86;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.518), 0 6px 20px 0 rgba(0, 0, 0, 0.593);
+}
+
+h2 {
+  font-family:      '3DSfont';
+  text-align:       center;
+  font-size:        15px;
+  margin-left:      7.5%;
+  margin-right:     7.5%;
+  margin-top:       20px;
+  margin-bottom:    10%;
+  border:           2px solid rgb(255, 255, 255);
+  border-radius:    30px;
+  background-color: #ffffff86;
+  box-shadow:       0 4px 8px 0 rgba(0, 0, 0, 0.518), 0 6px 20px 0 rgba(0, 0, 0, 0.593);
+}
+
+.column {
+  float:          left;
+  width:          50%;
+  margin-top:     25px;
+  margin-bottom:  25px;
+
+}
+
+.column img{
+  width:      75%;
+  text-align: center;
+  margin:     auto;
+}
+
+.row:after {
+  content:    "";
+  display:    table;
+  clear:      both;
+}

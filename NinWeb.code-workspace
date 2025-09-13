@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "NinWeb",
+			"path": ".."
+		},
+		{
+			"path": "../../Worshop website-20250624T015722Z-1-001/Worshop website"
+		}
+	],
+	"settings": {
+		"debug.openDebug": "neverOpen",
+		"liveServer.settings.multiRootWorkspaceName": "NinWeb"
+	}
+}
