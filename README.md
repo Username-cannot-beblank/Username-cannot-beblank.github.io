@@ -1,2 +1,3 @@
-# ninweb-build
-n o
+# Title
+
+A website built for a school project.
