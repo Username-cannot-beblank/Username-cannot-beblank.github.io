@@ -10,10 +10,6 @@
   font-family: "EchoesOfMK8";
   src: url(fonts/FOT-NewRodin\ Pro\ EB.otf);
 }
-@font-face {
-  font-family: "avenir";
-  src: url(Fonts/Avenir\ Regular.ttf);
-}
 
 
 img {
@@ -59,7 +55,7 @@ a:hover {
   background-image:   linear-gradient(rgba(0, 191, 255, 0.653), rgba(0, 150, 200, 0.371));
   border-radius:      0px 0px 1000px 1000px; 
   padding:            40px 20px;
-  font-family:        'pretendo', sans-serif; 
+  font-family:        'Pretendo', sans-serif; 
 }
 .start{
   width:        49%;
